@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-app-open
+  description: demo-app
+  annotations: 
+    github.com/project-slug: leemills83/test-app-open
+    backstage.io/github-actions-id: leemills83/test-app-open
+spec:
+  type: service
+  lifecycle: experimental
+  owner: leemills83
